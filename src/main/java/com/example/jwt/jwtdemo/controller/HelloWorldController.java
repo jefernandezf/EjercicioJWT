@@ -11,7 +11,7 @@ public class HelloWorldController {
 	@RequestMapping("hello")
 	public String helloWorld(@RequestParam(value = "name", defaultValue ="World" ) String name) {
 		
-		return "Hello " + name + "!!";
+		return "Hello como estas" + name + "!!";
 	}
 
 }
